@@ -1,20 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
 
-#quienes{
+
+
+
+
+#quienes {
     color: whitesmoke;
+    font-family: 'Open Sans', sans-serif;
 }
 
+.navbar {
+    font-size: 150%;
+    font-family: 'Roboto Condensed', sans-serif;
 
+}
 
-
+/*--card hover--*/
 .card {
     transition: box-shadow 0.3s;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 .card:hover {
     box-shadow: 0 0 12px rgba(0, 0, 0, 0.5);
 }
 
-
+/*--social media hover--*/
 .icons {
     transition: transform 0.8s ease-in-out;
 }
@@ -24,12 +37,87 @@
 
 }
 
+/*--cards--*/
 .card {
     position: relative;
-    width: 225px;
+    width: 250px;
     height: 385px;
     margin: 0 auto;
     border-radius: 15px;
     box-shadow: 0 15px 60px rgba(0, 0, 0, 0.5);
-    font-size: small;
+    font-size: 85%;
 }
+
+
+/*--formulario--*/
+#formulario {
+    max-width: 750px;
+    margin: 5px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    color: azure;
+    box-shadow: 0 20px 70px rgba(0, 0, 0, 0.5);
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+
+button[type="submit"] {
+    margin-top: 10px;
+    padding: 8px 12px;
+    background-color: #3f1ff9;
+    color: black;
+    font-family: 'Roboto Condensed', sans-serif;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #53f904;
+}
+
+/*--end formulario--*/
+
+/*--blockquote--*/
+
+blockquote {
+    margin: 2.7em auto;
+    padding: 2em;
+    background: linear-gradient(white, white) padding-box, url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/80625/sea.jpg) border-box 0 / cover;
+    border: 2em solid transparent;
+    box-shadow: 5px 3px 30px black;
+    font-size: 0.9em;
+    font-family: 'Lora', serif;
+    font-style: italic;
+    line-height: 1.5;
+    width: 75%;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+footer {
+    padding-top: 1.3em;
+}
+
+cite {
+    font-style: normal;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+/*-- end blockquote--*/
