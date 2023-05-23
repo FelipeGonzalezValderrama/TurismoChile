@@ -101,11 +101,11 @@ blockquote {
     background: linear-gradient(white, white) padding-box, url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/80625/sea.jpg) border-box 0 / cover;
     border: 2em solid transparent;
     box-shadow: 5px 3px 30px black;
-    font-size: 0.9em;
+    font-size: 0.8em;
     font-family: 'Lora', serif;
     font-style: italic;
     line-height: 1.5;
-    width: 75%;
+    width: 70%;
     font-family: 'Open Sans', sans-serif;
 
 }
